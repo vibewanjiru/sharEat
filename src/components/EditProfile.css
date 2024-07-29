@@ -1,0 +1,56 @@
+.edit-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+  }
+  
+  .set-image-button {
+    position: absolute;
+    top: 10px;
+    right: -400px;
+    background-color: blue;
+    color: white;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .avatar-container {
+    position: relative;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+  }
+  
+  .add-photo-icon {
+    position: absolute;
+    bottom: 35px;
+    right: -35px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  

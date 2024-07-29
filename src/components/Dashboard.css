@@ -1,0 +1,58 @@
+.dashboard {
+  display: flex;
+  padding: 20px;
+  background-image: url('C:/Users/user/Downloads/1820.jpg');
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.recipes {
+  flex: 1.2;
+}
+
+.create-button .home-button{
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto 10px auto; 
+}
+
+.main-content {
+  flex: 2;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.profile-sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 20px;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; 
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%; 
+}

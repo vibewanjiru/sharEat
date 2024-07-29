@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb33;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.nav-profile {
+  display: flex;
+  align-items: center;
+}
+
+.nav-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+
+.username {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.logout-button {
+  font-family: 'Playfair Display', serif;
+}

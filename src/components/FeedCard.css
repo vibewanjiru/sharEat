@@ -1,0 +1,63 @@
+.feed-card {
+    padding: 20px;
+    background-color: #b5b5b5d6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    margin-left: 120px;
+  }
+  
+  .feed-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feed-profile-pic {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .view-button {
+    font-size: 0.8em;
+    padding: 5px 10px;
+  }
+  
+  .feed-card-image img {
+    width: 85%;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  
+  .feed-card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .left-actions, .right-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feed-card-title h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  

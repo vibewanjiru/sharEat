@@ -1,0 +1,45 @@
+.saved-card {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .saved-card:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .saved-card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .saved-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+  }
+  
+  .saved-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  
+  .saved-card-actions .MuiIconButton-root {
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  

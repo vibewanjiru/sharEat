@@ -1,0 +1,63 @@
+.auth-container {
+  display: flex;
+  height: 100vh;
+}
+
+.auth-sidebar {
+  flex: 1;
+  background-color: #121212;
+}
+
+.auth-main {
+  flex: 1;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-main h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-button {
+  width: 60%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.auth-switch {
+  color: white;
+}
+
+/* AuthField styles */
+.auth-field {
+  width: 100%;
+}
+
+.auth-field .MuiOutlinedInput-root {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.auth-field .MuiOutlinedInput-root .MuiInputAdornment-root {
+  margin-right: 8px;
+}
+
+.auth-field .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.auth-field .MuiOutlinedInput-root .MuiInputAdornment-root svg {
+  color: white;
+}

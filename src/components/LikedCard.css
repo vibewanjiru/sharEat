@@ -1,0 +1,46 @@
+
+.liked-card {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .liked-card:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .liked-card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .liked-card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+  }
+  
+  .liked-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8em;
+    padding: 10px;
+  }
+  
+  .liked-card-actions .MuiIconButton-root {
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  

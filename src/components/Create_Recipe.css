@@ -1,0 +1,50 @@
+.create-recipe {
+  height: 75vh;
+  padding: 20px;
+  background-color: #b5b5b5d6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.title-input {
+  width: 90%;
+  padding: 10px;
+  font-size: 2em;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.story-editor {
+  min-height: 300px;
+  font-weight: 400;
+}
+
+.ql-container {
+  border: none;
+  min-height: 350px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.ql-editor {
+  font-size: 1.2em;
+}
+
+.ql-toolbar.ql-snow {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.create-recipe-button {
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: 600;
+}

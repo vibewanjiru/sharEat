@@ -1,0 +1,9 @@
+.my-recipes {
+    padding: 20px;
+    background-color: #b5b5b5d6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Merriweather', serif;
+    height: 75vh;
+    overflow-y: auto;
+}
